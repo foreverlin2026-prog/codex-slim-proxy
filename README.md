@@ -1,9 +1,8 @@
-```
 # codex-slim-proxy
 
-> [English Version](#english) | [中文版本](#中文)
+> [English](#en) | [中文版本](#zh)
 
-<a id="english"></a>
+<a id="en"></a>
 ## English
 A tiny transparent reverse proxy for OpenAI Codex CLI.
 
@@ -148,5 +147,10 @@ codex
 - 仅本地使用，无内置鉴权，监听地址 `127.0.0.1`。
 
 ```
-直接全量覆盖 README，顶部就有可点击切换链接，Github 的 Markdown 支持这种锚点跳转。
+复制上面整块，直接覆盖 README.md
+提交：
+```bash
+git add README.md
+git commit -m "fix: use html anchor tag for navigation"
+git push
 ```
