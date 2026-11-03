@@ -1,0 +1,13 @@
+[project]
+name = "codex-slim-proxy"
+version = "0.1.0"
+description = "A tiny transparent proxy to trim Codex CLI tool output and save tokens"
+authors = [{ name = "Your Name" }]
+license = { file = "LICENSE" }
+requires-python = ">=3.11"
+dependencies = [
+  "aiohttp>=3.10"
+]
+
+[project.scripts]
+codex-slim-proxy = "codex_slim_proxy:main"
