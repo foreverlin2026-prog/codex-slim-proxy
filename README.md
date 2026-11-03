@@ -1,8 +1,7 @@
 # codex-slim-proxy
 
-> [English](#en) | [中文版本](#zh)
+> [English](#english) | [中文版本](#中文版本)
 
-<a id="en"></a>
 ## English
 A tiny transparent reverse proxy for OpenAI Codex CLI.
 
@@ -145,12 +144,3 @@ codex
 
 - 仅做文本截断，没有智能摘要；限制设置过激进时，可能截断关键报错日志。
 - 仅本地使用，无内置鉴权，监听地址 `127.0.0.1`。
-
-```
-复制上面整块，直接覆盖 README.md
-提交：
-```bash
-git add README.md
-git commit -m "fix: use html anchor tag for navigation"
-git push
-```
